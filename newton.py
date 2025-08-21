@@ -17,7 +17,7 @@ def optimize():
     adding doc string
     """
     differecnce = approximation_t(x_0)
-    epsilon = 0.01
+    epsilon = 0.001
     while difference > threshold:
         x_0 = x_0 + epsilon
         difference = approximation(x_0)
